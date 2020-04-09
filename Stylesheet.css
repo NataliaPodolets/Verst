@@ -1,7 +1,8 @@
 nav{
-   
+    padding-left: 20%;
+    padding-right: 20%;
+    color: white;
 }
-
 
 body{
     background-color: #ffffff;
@@ -13,6 +14,14 @@ header{
     
 }
 
+.buttond_s{
+    margin-top: 10px;
+}
+
+a:hover{
+    color: white;
+}
+
 #text_header{
     margin-top: 120px;
     font-size: 35px;
@@ -21,22 +30,8 @@ header{
     
 }
 
-#button_header{
-    margin-left: 700px;
-    text-align: center;
-    font-size: 18px;
-    border-radius: 40%;
-    background-color: #ff3150;
-    width: 150px;
-    height: 40px;
-    color: #ffc501;
-}
 
-
-
-
-
-.about{
+#portfolio{
     padding-left: 20%;
     padding-right: 20%;
     background-color: #eff7fa;
@@ -45,12 +40,68 @@ header{
     font-size: 45px;
 }
 
+#about{
+    margin-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #ffffff;
+
+    color: #a8b9c0;
+
+}
+
+h1{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-bottom: 40px;
+}
+
+h2{
+   
+    margin-top: 145px;
+    color: black;
+}
 
 .rw1{
     margin-top: 20px;
 }
-
-
+.rw1:hover{
+    cursor: pointer;
+}
+.rw2:hover{
+    cursor: pointer;
+}
 .rw2{
     margin-top: 20px;
+}
+
+#foot_a:hover{
+    color: #a8b9c0;
+    cursor: pointer;
+}
+
+.foot_rw{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.fb{
+    margin:  10px;
+    width: 40px;
+}
+
+.inst{
+    margin:  10px;
+    width: 30px;
+}
+footer{
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 20px;
+    
+    background-color: #19283f;
+    color: white;
+    
 }
